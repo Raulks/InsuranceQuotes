@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/InsuranceQuotes/static/css/main.2a816896.chunk.css",
-    "main.js": "/InsuranceQuotes/static/js/main.8bfc5bfd.chunk.js",
-    "main.js.map": "/InsuranceQuotes/static/js/main.8bfc5bfd.chunk.js.map",
+    "main.css": "/InsuranceQuotes/static/css/main.b1e5d011.chunk.css",
+    "main.js": "/InsuranceQuotes/static/js/main.f5230a54.chunk.js",
+    "main.js.map": "/InsuranceQuotes/static/js/main.f5230a54.chunk.js.map",
     "runtime-main.js": "/InsuranceQuotes/static/js/runtime-main.23426d80.js",
     "runtime-main.js.map": "/InsuranceQuotes/static/js/runtime-main.23426d80.js.map",
     "static/js/2.7cd5b041.chunk.js": "/InsuranceQuotes/static/js/2.7cd5b041.chunk.js",
     "static/js/2.7cd5b041.chunk.js.map": "/InsuranceQuotes/static/js/2.7cd5b041.chunk.js.map",
     "index.html": "/InsuranceQuotes/index.html",
-    "precache-manifest.ad04184c3a1cf0dc5fea791349388149.js": "/InsuranceQuotes/precache-manifest.ad04184c3a1cf0dc5fea791349388149.js",
+    "precache-manifest.34209318bace900f23b9f1e9438b914f.js": "/InsuranceQuotes/precache-manifest.34209318bace900f23b9f1e9438b914f.js",
     "service-worker.js": "/InsuranceQuotes/service-worker.js",
-    "static/css/main.2a816896.chunk.css.map": "/InsuranceQuotes/static/css/main.2a816896.chunk.css.map",
+    "static/css/main.b1e5d011.chunk.css.map": "/InsuranceQuotes/static/css/main.b1e5d011.chunk.css.map",
     "static/js/2.7cd5b041.chunk.js.LICENSE.txt": "/InsuranceQuotes/static/js/2.7cd5b041.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.23426d80.js",
     "static/js/2.7cd5b041.chunk.js",
-    "static/css/main.2a816896.chunk.css",
-    "static/js/main.8bfc5bfd.chunk.js"
+    "static/css/main.b1e5d011.chunk.css",
+    "static/js/main.f5230a54.chunk.js"
   ]
 }
