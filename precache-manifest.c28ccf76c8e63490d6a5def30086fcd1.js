@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71aed83d10e5a1491c777ed1227c1a4f",
+    "revision": "b6b6a890f9e5ca6d454d3796a15eb619",
     "url": "/InsuranceQuotes/index.html"
   },
   {
-    "revision": "2867429896a8da59a16b",
+    "revision": "4a969362233557123a22",
     "url": "/InsuranceQuotes/static/css/main.2a816896.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/InsuranceQuotes/static/js/2.7cd5b041.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2867429896a8da59a16b",
-    "url": "/InsuranceQuotes/static/js/main.a94de048.chunk.js"
+    "revision": "4a969362233557123a22",
+    "url": "/InsuranceQuotes/static/js/main.98de74a3.chunk.js"
   },
   {
     "revision": "89f84b80a874b9b34c44",
