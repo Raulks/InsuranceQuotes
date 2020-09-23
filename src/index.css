@@ -12,6 +12,9 @@ html {
     padding: 0;
     margin: 0;
   }
+  input{
+    margin: 0 1rem;
+  }
   .resultado-enter {
     transition: .5s;
   }

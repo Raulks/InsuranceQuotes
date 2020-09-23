@@ -39,7 +39,7 @@ function App() {
           guardarCargando={guardarCargando}
         />
         {cargando ? <Spinner /> : null}
-        <Resumen datos={datos} />
+        {cargando ? null : <Resumen datos={datos} /> }
         {!cargando ? <Resultado cotizacion={cotizacion} /> : null}
       </ContenedorFormulario>
     </Contenedor>

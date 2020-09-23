@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "@emotion/styled";
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 import { obtenerDiferenciaYear, calcularMarca, obtenerPlan } from "../helper";
 
 const Campo = styled.div`
@@ -19,10 +19,6 @@ const Select = styled.select`
   padding: 1rem;
   border: 1px solid #e1e1e1;
   --webkit-appearance: none;
-`;
-
-const InputRadio = styled.input`
-  margin: 0 1rem;
 `;
 
 const Boton = styled.button`
@@ -94,7 +90,7 @@ const Formulario = ({ guardarResumen, guardarCargando }) => {
 
       guardarResumen({
         cotizacion: Number(resultado),
-        datos
+        datos,
       });
     }, 1500);
   };
@@ -103,7 +99,7 @@ const Formulario = ({ guardarResumen, guardarCargando }) => {
     <form onSubmit={cotizarSeguro}>
       {error ? <Error>Todos los campos son obligatorios</Error> : null}
       <Campo>
-        <Label>Marca</Label>
+        <Label>Mercado</Label>
         <Select name="marca" value={marca} onChange={obtenerInformacion}>
           <option value="">-- Seleccione --</option>
           <option value="americano">Americano</option>
@@ -132,7 +128,7 @@ const Formulario = ({ guardarResumen, guardarCargando }) => {
       </Campo>
       <Campo>
         <Label>Plan</Label>
-        <InputRadio
+        <input
           type="radio"
           name="plan"
           value="basico"
@@ -140,7 +136,7 @@ const Formulario = ({ guardarResumen, guardarCargando }) => {
           onChange={obtenerInformacion}
         />
         Básico
-        <InputRadio
+        <input
           type="radio"
           name="plan"
           value="completo"
@@ -157,6 +153,6 @@ const Formulario = ({ guardarResumen, guardarCargando }) => {
 Formulario.propTypes = {
   guardarResumen: PropTypes.func.isRequired,
   guardarCargando: PropTypes.func.isRequired,
-}
+};
 
 export default Formulario;
